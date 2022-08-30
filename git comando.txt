@@ -45,6 +45,15 @@ LOS 3 ESTADOS DE GIT
 -- Con este comando vinculamos nuestro repositorio local con Github.
 > git remote add origin https://github.com/usuario/proyecto-xyz.git
 
+-- deshacer cambios por archivo local
+> git reset <fichero>
+
+-- deshacer todos los cambios local
+> git reset --hard
+
+-- deshacer por commit 
+>git reset --hard <commit>
+
 
 -- Patrones de nombres de archivos que git ignorará.
 .gitignore
