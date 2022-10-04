@@ -31,7 +31,8 @@
 
 -- Deshaciendo cambios realizados por unidad
 > git checkout nombrearchivo
-
+--opciones 2
+> git checkout -- index.html
 -- Deshaciendo cambios realizados todos
 > git checkout -f
 
