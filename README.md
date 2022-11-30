@@ -104,9 +104,14 @@
 > git branch --merged
 
 
--- eliminar las ramas para eso primero es posicionase en master y ejecutar
+-- Eliminar las ramas para eso primero es posicionase en master y ejecutar
 > git push --delete origin nombrerama
 
+-- Alctualizar ramas de remoto eliminados o nuevos
+> git remote update origin
+
+-- Listar todas las ramas
+> git branch --all 
 
 Ayuda con Ramas de Git
 
