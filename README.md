@@ -113,7 +113,7 @@
 -- Listar todas las ramas
 > git branch --all 
 
-Ayuda con Ramas de Git
+-- Ayuda con Ramas de Git
 
 > git help branch
 > git branch --help
