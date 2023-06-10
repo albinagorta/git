@@ -175,3 +175,7 @@
 2. `git rm` para eliminar el archivo con git.
 3. `git add` para agregar el archivo con el nuevo nombre. 
 
+  
+  # AYUDA POR MEMORIA  
+> git fsck --no-dangling
+> git repack -adfln --keep-unreachable --depth=20 --window=200
