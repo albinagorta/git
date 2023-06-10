@@ -176,6 +176,7 @@
 3. `git add` para agregar el archivo con el nuevo nombre. 
 
   
-  # AYUDA POR MEMORIA  
+# AYUDA POR MEMORIA  PASO 1
 > git fsck --no-dangling
+# AYUDA POR MEMORIA  PASO 2
 > git repack -adfln --keep-unreachable --depth=20 --window=200
