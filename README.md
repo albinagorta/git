@@ -44,6 +44,8 @@
 -- Comparar cambios reposito vs espacio de trabajo resumido
 > git diff --stat nombrearchivo
 
+-- Comparar cambios resumido entre 2 ramas
+> git diff --stat master 173-proy-0065-2023-exp-win-modulo-de-reclamos-fase-2-sprint-1
 
 -- Con este comando vinculamos nuestro repositorio local con Github.
 > git remote add origin https://github.com/usuario/proyecto-xyz.git
